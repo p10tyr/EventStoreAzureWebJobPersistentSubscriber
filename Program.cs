@@ -26,11 +26,10 @@ namespace EventStorePersistentSubscriber
                     .AddApplicationInsights(instrumentationKey, null)
                     .AddConsole();
 
-
-                Console.WriteLine($"Before Host config");
-
                 var host = new JobHost(config);
                 host.Call(typeof(Functions).GetMethod("ProcessMethod")); //thread blocked in here- if it falls over want azure to report failure/ restart
+
+                throw new AppDomainUnloadedException($"{typeof(Program).Assembly.GetName().Name} - WebJob has terminated");
                 //host.RunAndBlock(); //will block thread and wait for events, we don't not interested in events or schedules
             }
         }
