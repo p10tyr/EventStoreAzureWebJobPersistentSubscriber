@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventStorePersistentSubscriber", "EventStorePersistentSubscriber.csproj", "{864C1B98-436F-484F-BAB3-BD074ACABEBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{864C1B98-436F-484F-BAB3-BD074ACABEBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{864C1B98-436F-484F-BAB3-BD074ACABEBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{864C1B98-436F-484F-BAB3-BD074ACABEBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{864C1B98-436F-484F-BAB3-BD074ACABEBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8A8B924-1BB1-4CD5-985F-1277E4DA1B0D}
+	EndGlobalSection
+EndGlobal
